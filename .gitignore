@@ -131,6 +131,12 @@ dist
 # yarn v2
 .yarn/cache
 .yarn/unplugged
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/toncompte/stripe-backend.git
+git push -u origin main
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
